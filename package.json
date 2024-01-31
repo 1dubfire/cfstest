@@ -13,7 +13,7 @@
     "emailjs-com": "^3.2.0",
     "fslightbox-react": "^1.7.4",
     "react": "^18.2.0",
-    "react-animate-on-scroll": "^2.1.5",
+    "react-animate-on-scroll": "^2.1.7",
     "react-bootstrap": "^1.6.6",
     "react-circular-progressbar": "^2.0.4",
     "react-countup": "^4.3.3",
@@ -31,6 +31,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "install": "npm install --legacy-peer-deps",
     "start": "set PORT=3005 && react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
